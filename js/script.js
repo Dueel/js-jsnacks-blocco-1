@@ -45,4 +45,5 @@ for (var i = 0; i < arr.length; i++){
         document.getElementById('test').innerHTML += '<div>' + key + ': ' + arr[i][key] + '</div>';
 
     }
+    document.getElementById('test').innerHTML += '<hr>'
 }
